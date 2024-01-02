@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.ayah.abstractart.Musem.java&apos; to &apos;Museum.java&apos;&#x0A;- Original project: &apos;AbstractArt&apos;&#x0A;- Original element: &apos;com.ayah.abstractart.Musem.java&apos;&#x0A;- Renamed element: &apos;com.ayah.abstractart.Museum.java&apos;" description="Rename compilation unit &apos;Musem.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.ayah.abstractart{Musem.java" name="Museum.java" references="false" stamp="1704155938006" version="1.0"/>
+</session>

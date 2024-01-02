@@ -1,0 +1,8 @@
+package com.ayah.abstractart;
+
+//inside of Museum.java
+public class Museum {
+ public static void main(String[] args) {
+     // TODO: create paintings and sculptures here
+ }
+}
