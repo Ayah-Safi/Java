@@ -40,7 +40,10 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
+	 <dependency>
+                <groupId>org.apache.tomcat.embed</groupId>
+                <artifactId>tomcat-embed-jasper</artifactId>
+       </dependency>
 	<build>
 		<plugins>
 			<plugin>
@@ -48,6 +51,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		
 	</build>
 
 </project>
