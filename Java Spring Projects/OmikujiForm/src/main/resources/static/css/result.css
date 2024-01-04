@@ -1,0 +1,55 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+  }
+  .navbar {
+    background: #e0e0e0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  .search-bar input {
+    padding: 5px;
+    margin-left: 10px;
+  }
+  .content {
+    background: white;
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .omikuji-result {
+    background: #add8e6;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-size: 1.2em;
+  }
+  .go-back {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: #e0e0e0;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+  }
+  .go-back:hover {
+    background: #d0d0d0;
+  }
+  .hint {
+    background-color: yellow;
+    padding: 10px;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+  }

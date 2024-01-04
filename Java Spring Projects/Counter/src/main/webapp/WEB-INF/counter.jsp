@@ -5,12 +5,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Counter</title>
 </head>
 <body>
 <p> You have visited <a href="/">http://your_server</a> <c:out value="${count}"/> times.</p>
 
 <a href="/">Test another visit?</a>
-
+<br>
+<br>
+<button id="reset">Reset Counter</button>
 </body>
 </html>

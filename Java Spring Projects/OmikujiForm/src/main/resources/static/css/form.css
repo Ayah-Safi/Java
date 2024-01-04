@@ -1,0 +1,47 @@
+ body {
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  .form-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  .form-group {
+    margin-bottom: 10px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form-group input[type="text"],
+  .form-group input[type="number"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  .form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .form-group button:hover {
+    background-color: darkblue;
+  }
+  .hint {
+    background-color: yellow;
+    padding: 5px;
+    margin-top: 10px;
+  }

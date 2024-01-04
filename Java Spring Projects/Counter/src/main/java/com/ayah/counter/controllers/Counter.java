@@ -28,4 +28,19 @@ public class Counter {
 	public String counter() {
 		return "counter.jsp";
 	}
+	
+	//	Ninja Bonus: Increment the count by 2
+    @RequestMapping("/doubleCounter")
+    public String doubleCounter(HttpSession session) {
+    	
+        if (session.getAttribute("count") == null) {
+            session.setAttribute("count", 0);
+        } else {
+            int count = (Integer) session.getAttribute("count") + 2;
+            session.setAttribute("count", count);
+        }
+        return "doubleCounter.jsp";
+    }
+    
+    
 }
