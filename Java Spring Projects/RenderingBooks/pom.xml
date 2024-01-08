@@ -64,7 +64,9 @@
 	        <groupId>org.glassfish.web</groupId>
 	        <artifactId>jakarta.servlet.jsp.jstl</artifactId>
 	    </dependency>
+	    
 	</dependencies>
+	
 
 	<build>
 		<plugins>
