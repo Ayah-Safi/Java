@@ -4596,3 +4596,511 @@ Caused by: java.util.concurrent.CancellationException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-08 16:49:36.317
 !MESSAGE Classpath changed for project: RenderingBooks
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-08 19:49:07.355
+!MESSAGE InterruptedException
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:154)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.getResolutions(LSPCodeActionMarkerResolution.java:101)
+	at org.springframework.tooling.boot.ls.markers.LSPBootCodeActionMarkerResolution.getResolutions(LSPBootCodeActionMarkerResolution.java:25)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.getResolutions(MarkerHelpRegistry.java:394)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectMarkerProposals(JavaCorrectionProcessor.java:319)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectProposals(JavaCorrectionProcessor.java:278)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getMarkerAnnotationFixes(ProblemHover.java:154)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:755)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-08 20:44:09.530
+!MESSAGE Classpath changed for project: BurgerTracker
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-08 20:44:09.531
+!MESSAGE Boot project ADDED: BurgerTracker
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-08 20:44:09.559
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-08 20:44:09.560
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-08 20:44:09.560
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-08 20:44:09.560
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-08 20:44:09.563
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-08 20:44:09.565
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-08 20:44:10.317
+!MESSAGE Classpath changed for project: BurgerTracker
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-08 20:44:48.935
+!MESSAGE Classpath changed for project: BurgerTracker
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-08 20:44:48.980
+!MESSAGE Classpath changed for project: BurgerTracker
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-08 20:44:50.175
+!MESSAGE Classpath changed for project: BurgerTracker
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-08 20:48:45.144
+!MESSAGE [Info]	ESLint server running in node v18.18.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-08 20:48:45.209
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.2.2 from path "/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.wildwebdeveloper_1.1.4.202311211923/node_modules/typescript/lib/tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-08 20:48:45.213
+!MESSAGE [Info]	Typescript Server version info: {version=5.2.2, source=user-setting}
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-08 20:58:00.891
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-08 20:58:00.892
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-08 20:58:00.893
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-08 20:58:00.893
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-08 20:58:00.896
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-08 20:58:00.897
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-08 20:58:02.277
+!MESSAGE [Info]	ESLint server running in node v18.18.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-08 20:58:02.433
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.2.2 from path "/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.wildwebdeveloper_1.1.4.202311211923/node_modules/typescript/lib/tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-08 20:58:02.436
+!MESSAGE [Info]	Typescript Server version info: {version=5.2.2, source=user-setting}
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-08 22:21:10.620
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-08 22:21:10.622
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-08 22:21:10.622
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-08 22:21:10.623
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-08 22:21:10.627
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-08 22:21:10.628
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-08 22:21:11.630
+!MESSAGE [Info]	ESLint server running in node v18.18.2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-10 00:26:42.170
+!MESSAGE Classpath changed for project: relationships
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-10 00:26:42.171
+!MESSAGE Boot project ADDED: relationships
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 00:26:42.204
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 00:26:42.205
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 00:26:42.206
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 00:26:42.206
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 00:26:42.211
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 00:26:42.213
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-10 00:26:42.335
+!MESSAGE Classpath changed for project: relationships
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-10 00:26:47.066
+!MESSAGE [Info]	ESLint server running in node v18.18.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-10 00:26:47.253
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.2.2 from path "/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.wildwebdeveloper_1.1.4.202311211923/node_modules/typescript/lib/tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-10 00:26:47.256
+!MESSAGE [Info]	Typescript Server version info: {version=5.2.2, source=user-setting}
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 13:05:26.118
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 13:05:26.123
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 13:05:26.124
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 13:05:26.124
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 13:05:26.129
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 13:05:26.131
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-10 13:05:27.845
+!MESSAGE [Info]	ESLint server running in node v18.18.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-10 13:05:28.046
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.2.2 from path "/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.wildwebdeveloper_1.1.4.202311211923/node_modules/typescript/lib/tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-10 13:05:28.054
+!MESSAGE [Info]	Typescript Server version info: {version=5.2.2, source=user-setting}
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-10 13:09:44.626
+!MESSAGE Classpath changed for project: DojosandNinjas
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-10 13:09:44.627
+!MESSAGE Boot project ADDED: DojosandNinjas
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-01-10 13:09:44.653
+!MESSAGE src/test/resources [in DojosandNinjas] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): src/test/resources [in DojosandNinjas] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:559)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:572)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:303)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:289)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:529)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:542)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:572)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:303)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:289)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:244)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:146)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:90)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:130)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-01-10 13:09:44.656
+!MESSAGE src/test/resources [in DojosandNinjas] does not exist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-10 13:09:45.810
+!MESSAGE Classpath changed for project: DojosandNinjas
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 13:10:49.323
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 13:10:49.324
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 13:10:49.324
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 13:10:49.325
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 13:10:49.328
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 13:10:49.330
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-10 13:10:50.747
+!MESSAGE java.util.concurrent.CancellationException
+!STACK 0
+java.util.concurrent.CompletionException: java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2480)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingBase.cancel(LSPLinkedEditingBase.java:85)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingBase.collectLinkedEditingRanges(LSPLinkedEditingBase.java:53)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.updateLinkedEditing(LSPLinkedEditingReconcilingStrategy.java:165)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.updateLinkedEditing(LSPLinkedEditingReconcilingStrategy.java:154)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.lambda$0(LSPLinkedEditingReconcilingStrategy.java:132)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4367)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3990)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+Caused by: java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2478)
+	... 30 more
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-10 13:11:05.077
+!MESSAGE Classpath changed for project: DojosandNinjas
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-10 13:11:05.256
+!MESSAGE [Info]	ESLint server running in node v18.18.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-10 13:11:05.450
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.2.2 from path "/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.wildwebdeveloper_1.1.4.202311211923/node_modules/typescript/lib/tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-10 13:11:05.455
+!MESSAGE [Info]	Typescript Server version info: {version=5.2.2, source=user-setting}
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 13:12:29.316
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 13:12:29.316
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 13:12:29.317
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 13:12:29.318
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 13:12:29.321
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 13:12:29.323
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-10 13:12:30.371
+!MESSAGE [Info]	ESLint server running in node v18.18.2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-10 13:14:13.383
+!MESSAGE Classpath changed for project: DojosandNinjas
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-10 13:14:13.551
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.2.2 from path "/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.wildwebdeveloper_1.1.4.202311211923/node_modules/typescript/lib/tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-10 13:14:13.556
+!MESSAGE [Info]	Typescript Server version info: {version=5.2.2, source=user-setting}
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 16:06:51.633
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 16:06:51.634
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 16:06:51.634
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 16:06:51.635
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 16:06:51.638
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 16:06:51.640
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-10 16:07:24.449
+!MESSAGE Classpath changed for project: DojosandNinjas
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-10 16:07:24.594
+!MESSAGE [Info]	ESLint server running in node v18.18.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-10 16:07:24.769
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.2.2 from path "/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.wildwebdeveloper_1.1.4.202311211923/node_modules/typescript/lib/tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-10 16:07:24.773
+!MESSAGE [Info]	Typescript Server version info: {version=5.2.2, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-10 16:10:25.646
+!MESSAGE [Info]	ESLint server running in node v18.18.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-10 16:10:25.683
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.2.2 from path "/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.wildwebdeveloper_1.1.4.202311211923/node_modules/typescript/lib/tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-10 16:10:25.688
+!MESSAGE [Info]	Typescript Server version info: {version=5.2.2, source=user-setting}
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 16:44:27.715
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 16:44:27.716
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 16:44:27.717
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 16:44:27.717
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 16:44:27.721
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-10 16:44:27.722
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-10 16:44:28.837
+!MESSAGE [Info]	ESLint server running in node v18.18.2
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-11 14:17:41.930
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-11 14:17:41.932
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-11 14:17:41.933
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-11 14:17:41.933
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-11 14:17:41.939
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-11 14:17:41.945
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-11 14:17:43.516
+!MESSAGE [Info]	ESLint server running in node v18.18.2
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-11 16:51:57.229
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-11 16:51:57.230
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-11 16:51:57.231
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-11 16:51:57.231
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-11 16:51:57.233
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-11 16:51:57.235
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-11 16:51:58.332
+!MESSAGE [Info]	ESLint server running in node v18.18.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-11 16:51:58.513
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.2.2 from path "/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.wildwebdeveloper_1.1.4.202311211923/node_modules/typescript/lib/tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-11 16:51:58.516
+!MESSAGE [Info]	Typescript Server version info: {version=5.2.2, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-01-13 20:19:22.187
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-13 20:22:39.287
+!MESSAGE InterruptedException
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:154)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.getResolutions(LSPCodeActionMarkerResolution.java:101)
+	at org.springframework.tooling.boot.ls.markers.LSPBootCodeActionMarkerResolution.getResolutions(LSPBootCodeActionMarkerResolution.java:25)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.getResolutions(MarkerHelpRegistry.java:394)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectMarkerProposals(JavaCorrectionProcessor.java:319)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectProposals(JavaCorrectionProcessor.java:278)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getMarkerAnnotationFixes(ProblemHover.java:154)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:755)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-01-13 21:56:13.580
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-13 22:27:19.333
+!MESSAGE Classpath changed for project: relationships
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-13 22:27:19.336
+!MESSAGE Boot project REMOVED: relationships
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-13 22:27:19.343
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-13 22:27:19.344
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-13 22:27:19.344
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-13 22:27:19.345
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-13 22:27:19.348
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-01-13 22:27:19.349
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-13 22:27:20.690
+!MESSAGE [Info]	ESLint server running in node v18.18.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-13 22:27:20.855
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.2.2 from path "/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.wildwebdeveloper_1.1.4.202311211923/node_modules/typescript/lib/tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-13 22:27:20.858
+!MESSAGE [Info]	Typescript Server version info: {version=5.2.2, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-13 22:27:21.082
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.2.2 from path "/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.wildwebdeveloper_1.1.4.202311211923/node_modules/typescript/lib/tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-13 22:27:21.086
+!MESSAGE [Info]	Typescript Server version info: {version=5.2.2, source=user-setting}

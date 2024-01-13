@@ -31,9 +31,9 @@ public class BookController {
 		 model.addAttribute("desc", desc);
 		 model.addAttribute("langauge", langauge);
 		 model.addAttribute("numOfPages", numOfPages);
-		 
 		 return "show.jsp";
 	 }
+	 //This method return all books and send them to the front end
 	 @RequestMapping("/books")
 	    public String index(Model model) {
 	        List<Book> books = bookService.allBooks();
