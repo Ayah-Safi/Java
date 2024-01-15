@@ -1,0 +1,35 @@
+body {
+	display: flex;
+	flex-direction:column;
+	padding: 40px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.secion-three {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+	border-radius: 1.5%;
+}
+
+.buttons {
+	display: flex;
+	justify-content: flex-end;
+	gap: 5px;
+}
+
+.red-txt {
+	color:red;
+}
+
+.maroon-txt {
+	color: #AB3EFF;
+}
+
+.green-txt{
+	color: green;
+}

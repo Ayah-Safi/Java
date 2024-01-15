@@ -1,0 +1,9 @@
+table {
+	margin: 30px;
+}
+
+.header {
+	display:flex;
+	margin: 30px;
+	justify-content: space-between;
+}
