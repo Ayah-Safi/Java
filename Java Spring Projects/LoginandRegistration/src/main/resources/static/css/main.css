@@ -1,0 +1,26 @@
+.forms {
+	margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+label {
+	width:120px;
+	margin-bottom: 10px;
+	
+}
+
+input {
+	width: 220px;
+	margin-bottom: 10px;
+	
+}
+
+button {
+	margin-left: 276px;
+}
+
+.center {
+	text-align: center;
+	margin-top: 20px;
+}
